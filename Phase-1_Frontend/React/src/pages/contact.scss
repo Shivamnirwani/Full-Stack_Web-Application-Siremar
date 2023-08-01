@@ -1,0 +1,134 @@
+
+#contact {
+  .Contactus {
+    text-align: auto;
+    width: 700px;
+    overflow: hidden;
+    margin: 0;
+    margin: 0 0 0 400px;
+    padding: 30px;
+    background: white;
+    background-size: cover;
+    border-radius: 15px;
+  }
+  o {
+    margin: 122px;
+  }
+  r {
+    margin: 5px;
+  }
+  t {
+    margin: 108px;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    background-size: cover;
+
+    margin: 0 0 0 0px;
+    padding: 10px;
+  }
+  label {
+    color: black;
+    font-size: 17px;
+  }
+  #Fname {
+    width: 300px;
+    height: 30px;
+    border-radius: 1px;
+    padding-left: 8px;
+  }
+  #Lname {
+    width: 300px;
+    height: 30px;
+    border-radius: 1px;
+    padding-left: 8px;
+  }
+  #Pno {
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+  }
+  #Email {
+    width: 300px;
+    height: 30px;
+    border-radius: 1px;
+    padding-left: 8px;
+  }
+  #Query {
+    width: 620px;
+    height: 200px;
+    border-radius: 1px;
+    padding-left: 10px;
+    text-align: justify;
+    padding-bottom: 0px;
+  }
+  #submit {
+    width: 300px;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 8px;
+    background-color: white;
+  }
+  .navbar {
+    width: 97.3%;
+    background-color: #002d62;
+    color: rgb(102, 0, 128);
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  nav {
+    flex: 1;
+    text-align: left;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+  }
+  nav ul li button {
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+  nav ul li button:hover {
+    color: rgba(247, 191, 80, 255);
+  }
+  nav ul li a:hover {
+    color: aqua;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+  }
+  .line {
+    width: 100px;
+    height: 3px;
+    background: white;
+    margin: 0 auto 10px auto;
+  }
+  span {
+    color: white;
+    font-size: 17px;
+  }
+}

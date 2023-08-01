@@ -1,0 +1,130 @@
+
+<style>
+  body{
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      background-size: cover;
+      background-position: center center;
+      height: 90vh;
+      font-family: poppins;
+  }
+  /* This is for Navigation bar */
+  .navbar {
+      width: 100%;
+      background-color: #002d62;
+      color: rgb(102, 0, 128);
+      display: flex;
+      align-items:left;
+      padding: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+  nav
+  {
+      flex: 1;
+      text-align: left;
+      padding-left: 2%
+  }
+  nav ul
+  {
+      display: flex;
+      list-style: none;
+  }
+  nav ul li
+  {
+      display: inline-block;
+      margin-right: 50px;
+  }
+  nav ul li a
+  {
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      font-family: sans-serif;
+  }
+  nav ul li button
+  {
+      font-size: 20px;
+      color: white;
+      outline: none;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      font-family: sans-serif;
+  }
+  nav ul li button:hover
+  {
+      color: rgba(247,191,80,255)
+  	;
+  }
+  nav ul li a:hover
+  {
+      color: aqua;
+  }
+  a
+  {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 28px;
+  }
+
+  .wrapper{
+      width: 1170px;
+      margin: 5% auto;
+  }
+  .wrapper h2{
+      text-transform: uppercase;
+      font-family: poppins;
+      font-weight: bold;
+      text-align: center;
+      font-size: 30px;
+      color: #ffff;
+      margin: 0;
+  }
+
+  .line {
+  width: 200px;
+  height: 3px;
+  background: #ffff;
+  margin: 0 auto 60px auto;
+  }
+
+  @media (max-width:1000px){
+      .wrapper {
+  width: 100%;
+  }
+  .single-service {
+  width: 95%;
+  margin-bottom: 30px;
+  }
+  .wrapper h2 {
+  font-size: 30px;
+  }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Create three equal columns that floats next to each other */
+  .column {
+      text-align: center;
+    float: center;
+    margin: 2%;
+    width: 43.33%;
+    padding: 50px;
+    height: 300px;
+    color: white/* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .row:right {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+</style>

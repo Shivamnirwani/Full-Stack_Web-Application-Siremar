@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form | SIREMAR</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="Register.css">
+</head>
+
+<body>
+    <script>
+        function check_pass() {
+            if (document.getElementById('pass').value ==
+                document.getElementById('cpass').value) {
+                document.getElementById('submit').disabled = false;
+                document.getElementById('message').innerHTML = " ";
+            } else {
+                document.getElementById('message').innerHTML = "Passwords do not match";
+                document.getElementById('submit').disabled = true;
+
+            }
+        }
+
+        function toggleMenu(type){
+            let emp = document.getElementsByClassName('reg-emp')[0]
+            let res = document.getElementsByClassName('reg-res')[0]
+
+            if(type=='res'){
+                emp.style.display = 'none'
+                res.style.display = 'block'
+
+            }else{
+                emp.style.display = 'block'
+                res.style.display = 'none'
+            }
+        }
+
+    </script>
+    <div class="navbar">
+
+      <img src="images/Siremar.jpeg" alt="subdivision image" height="100%" width="10%">
+            
+        <nav>
+            <ul id='MenuItems'>
+              <li><a href='homepage.html'>Home</a></li>
+              <li><a href='about.html'>About Us</a></li>
+              <li><a href='services.html'>Services</a></li>
+              <li><a href='contactus.html'>Contact</a></li>
+              <li><a href='Login.html'>Login/Register</a></li>
+              <li><a href='admin.html'>Admin</a></li>
+              <li><a href="resident.html">Resident</a></li>
+              <li><a href='inspector.html'>Inspector</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Registration Page</h1>
+    <div class="line">
+    </div>
+    <div class="Register">
+        <div class="toggle-menu">
+            <input type="button" name="butt1" id="resbut" value="Residents" onclick="toggleMenu('res')">
+            <input type="button" name="butt2" id="sirempbut" value="Siremar_Employee" onclick="toggleMenu('emp')">
+        </div>
+       
+        <form class="reg-emp" id="Register" method="get">
+
+           
+            
+            <label> <b>Role</b></label><br>
+            <select name="Role" id="Role">
+                <option value="Super Admin">Super_Admin</option>
+                <option value="Inspector">Inspector</option>
+            </select>
+
+            <label> <b>Siremar ID</b></label><br>
+            <input type="text" name="SEmpid" id="SEmpid" placeholder="Enter your Siremar ID">
+            
+            <label> <b>Full Name</b></label>
+            <input type="text" name="Fullname" id="Fullname" placeholder="Enter your Full Name">
+                        
+            <label> <b>Email</b></label><br>
+            <input type="text" name="Email" id="Email" placeholder="Enter your Email">
+                            
+            <label> <b>Residential ID</b></label><br>
+            <input type="text" name="Resid" id="Resid" placeholder="Enter your Residential ID">
+                                
+            <label> <b>Location</b></label><br>
+            <input type="text" name="Location" id="Location" placeholder="Enter your current location">
+                                    
+            <label><b>Password</b></label><br>
+            <input type="password" name="password" id="pass" placeholder="Enter your Password" onchange='check_pass();' />
+                                    
+            <label><b>Confirm_Password</b></label><br>
+            <input type="password" name="confirm_password" id="cpass" placeholder="Re-enter your Password" onchange='check_pass();' />
+            <p><span id='message'></span></p>
+            
+            <label> <b>Username</b></label><br>
+            <input type="text" name="Uname" id="Uname" placeholder="Enter your Username">
+            <input type="submit" name="submit" value="Submit" id="submit" disabled />         
+
+        </form>
+        
+        <form class="reg-res" id="Register" method="get">
+
+           
+            <label> <b>First Name</b><br>
+            <input type="text" name="Fname" id="Fname" placeholder="Enter your First Name">
+
+            <label> <b>Last Name</b></label><br>
+            <input type="text" name="Lname" id="Lname" placeholder="Enter your Last Name">
+
+                    
+            <label> <b>Date of Birth</b></label><br>
+            <input type="date" name="DOB" id="DOB">
+                        
+            <label> <b>Age</b></label><br>
+            <input type="text" name="Age" id="Age" placeholder="Enter your Age">
+                            
+            <label> <b>Address</b></label><br>
+            <input type="text" name="Address" id="Address" placeholder="Enter your Complete Address">
+                                
+            <label> <b>Phone Number</b></label><br>
+            <input type="text" name="Pno" id="Pno" placeholder="Enter your 10 digit Phone Number">
+                                    
+            <label> <b>Time on Island</b></label><br>
+            <input type="text" name="Toi" id="Toi" placeholder="Enter the time spent on island">
+                                        
+            <label> <b>Residential Status</b></label><br>
+            <input type="text" name="Resstatus" id="Resstatus" placeholder="Enter your Residential Status">
+                                            
+            <label> <b>Email</b></label><br>
+            <input type="text" name="Email" id="Email" placeholder="Enter your Complete Email">
+                                                
+            <label> <b>Occupation</b></label><br>
+            <input type="text" name="Occup" id="Occup" placeholder="Enter your Occupation">
+                                                    
+            <label><b>Password</b></label><br>
+            <input type="password" name="password" id="pass" placeholder="Enter your Password" onchange='check_pass();' />
+                                                    
+            <label><b>Confirm_Password</b></label><br>
+            <input type="password" name="confirm_password" id="cpass" placeholder="Re-enter your Password" onchange='check_pass();' />
+            <p><span id='message'></span></p>
+            
+            <label> <b>Username</b></label><br>
+            <input type="text" name="Uname" id="Uname" placeholder="Enter your Username">
+                                                            
+            <input type="submit" name="submit" value="Submit" id="submit" disabled />
+                                                            
+        </form>
+        
+
+    </div>
+      <!--footer-->
+  <footer class="footer">
+    <div class="l-footer">
+      <h1>
+        <img src="images/Siremar.jpeg" width="60%" alt="">
+      </h1>
+    </div>
+    <ul class="r-footer">
+      <li>
+        <h2>
+          Contact</h2>
+        <ul class="box">
+          <li><a href="#">123-654-2949</a></li>
+          <li><a href="#">siremar.vene.org</a></li>
+          <li><a href="#">Siremar, Venezuela, VZ-58585</a></li>
+        </ul>
+      </li>
+      <li class="features">
+        <h2>
+          Links</h2>
+        <ul class="box">
+          <li><a href="about.html">About</a></li>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="Login.html">Login/Register</a></li>
+        </ul>
+      </li>
+      <li>
+
+    </ul>
+    <div class="b-footer">
+      <p>
+        All rights reserved by Siremar 2022 </p>
+    </div>
+  </footer>
+
+  <!-- End -->
+</body>
+
+</html>

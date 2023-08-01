@@ -1,0 +1,314 @@
+
+.register-form {
+  display: flex;
+  margin: auto;
+  padding: 30px;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 200px; */
+}
+.col input {
+  width: 200px;
+}
+.col input,
+.col select,
+.col button {
+  height: 30px;
+}
+
+.col button {
+  background-color: #3b3b3b;
+  color: #fff;
+}
+
+#registration .form-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+#registration .form {
+  width: 50%;
+}
+
+.Register {
+  text-align: auto;
+  width: auto;
+  overflow: hidden;
+  margin: 0;
+  margin: auto;
+  padding: 30px;
+  background: black;
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.Register input,
+.Register select {
+  display: block;
+  margin: 10px 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  /* height: 150vh; */
+  font-family: poppins;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  background-size: cover;
+  margin: 0 0 0 0px;
+  padding: 10px;
+}
+
+label {
+  color: skyblue;
+  font-size: 17px;
+}
+
+#resbut {
+  width: 140px;
+  border-radius: 15px;
+  height: 30px;
+  margin: 10 0 0 450px;
+}
+
+#sirempbut {
+  width: 140px;
+  border-radius: 15px;
+  height: 30px;
+  background-color: aqua;
+  margin: 10 0 0 450px;
+}
+
+#Role {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#SEmpid {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Fullname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Email {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Resid {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Location {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Uname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#pass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#cpass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#submit {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+}
+
+.line {
+  width: 200px;
+  height: 3px;
+  background: black;
+  margin: 0 auto 10px auto;
+}
+
+span {
+  color: white;
+  font-size: 17px;
+}
+
+.toggle-menu {
+  display: flex;
+}
+
+#Fname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Lname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#DOB {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Age {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Address {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Pno {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Toi {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Resstatus {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Email {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Occup {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Uname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#pass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#cpass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#submit {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+}
