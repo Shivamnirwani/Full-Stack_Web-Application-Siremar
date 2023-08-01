@@ -1,0 +1,117 @@
+
+#login {
+  padding: 100px;
+  .Login {
+    text-align: auto;
+    max-width: 350px;
+    overflow: hidden;
+    margin: 0;
+    margin: 0 auto;
+    padding: 30px;
+    background: black;
+    background-size: cover;
+    border-radius: 15px;
+  }
+  h1 {
+    text-align: center;
+    color: black;
+    background-size: cover;
+
+    margin: 0 0 0 0px;
+    padding: 10px;
+  }
+  label {
+    color: skyblue;
+    font-size: 17px;
+  }
+  o {
+    margin: 3px;
+  }
+  #Uname {
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+  }
+
+  #Pass {
+    width: 100%;
+    height: 30px;
+    border-radius: 1px;
+    padding-left: 8px;
+  }
+  #Submit {
+    width: 100%;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 8px;
+    background-color: white;
+  }
+  #Register {
+    width: 100%;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 8px;
+    background-color: white;
+  }
+  .navbar {
+    width: 97.3%;
+    background-color: #002d62;
+    color: rgb(102, 0, 128);
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  nav {
+    flex: 1;
+    text-align: left;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+  }
+  nav ul li button {
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+  nav ul li button:hover {
+    color: rgba(247, 191, 80, 255);
+  }
+  nav ul li a:hover {
+    color: aqua;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+  }
+  .line {
+    width: 100px;
+    height: 3px;
+    background: black;
+    margin: 0 auto 10px auto;
+  }
+  span {
+    color: white;
+    font-size: 17px;
+  }
+}

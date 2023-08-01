@@ -1,0 +1,37 @@
+.residents-table {
+  font-size: 30px;
+  margin: 30px auto;
+  padding: 30px;
+  //   border: 2px solid #efefef;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  thead {
+    text-decoration: underline;
+  }
+
+  tr,
+  td {
+    border: 2px solid black;
+  }
+  border-spacing: 0px !important;
+  border: 2px solid black;
+  width: 80%;
+}
+.inspector.column {
+  padding: 30px;
+  margin: auto;
+  width: 350px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  label {
+    padding-right: 10px;
+  }
+  button {
+    width: 100px;
+  }
+}
+
+.flex-cntr {
+  display: flex;
+  justify-content: space-between;
+}

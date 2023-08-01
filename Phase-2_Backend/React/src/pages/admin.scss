@@ -1,0 +1,134 @@
+#admin {
+  .row {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: inherit;
+  }
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px;
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    font-family: poppins;
+  }
+  /* This is for Navigation bar */
+  .navbar {
+    width: 100%;
+    background-color: #002d62;
+    color: rgb(102, 0, 128);
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  nav {
+    flex: 1;
+    text-align: left;
+    padding-left: 2%;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+  }
+  nav ul li button {
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+  nav ul li button:hover {
+    color: rgba(247, 191, 80, 255);
+  }
+  nav ul li a:hover {
+    color: aqua;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+  }
+
+  .wrapper {
+    width: 1170px;
+    margin: 5% auto;
+  }
+  .wrapper h2 {
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    margin: 10%;
+  }
+
+  .line {
+    width: 200px;
+    height: 3px;
+    background: #000000;
+    margin: 0 auto 60px auto;
+  }
+
+  @media (max-width: 1000px) {
+    .wrapper {
+      width: 100%;
+    }
+    .single-service {
+      width: 95%;
+      margin-bottom: 30px;
+    }
+    .wrapper h2 {
+      font-size: 30px;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: inline-start;
+    font-size: 30px;
+    color:aqua;
+    width:33.33% auto;
+    padding: 20px;
+    margin-top: 10%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
